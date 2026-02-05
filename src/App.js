@@ -1,35 +1,46 @@
 import profile from './fotocv.jpg';
 import './App.css';
-function App() {
+import { HashRouter, Routes, Route, Link } from "react-router-dom";
+import Descargas from "./Descargas";
+
+function Home() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={profile} className="App-logo" alt="logo" />
-        <h1>
-          Evaluacion Parcial 1
-        </h1>
-        <h1>
-           Alumno(a): Sanchez Terrones Alejandra Yemanya
-        </h1>
+
+        <h1 className="App-title">Evaluación Parcial 1</h1>
+        <h2 className="App-subtitle">
+          Alumno: Sanchez Terrones Alejandra Yemanya
+        </h2>
+
         <a
           className="App-link"
-          href="https://www.linkedin.com/in/alejandra-yemanya?utm_source=share_via&utm_content=profile&utm_medium=member_ios"
+          href="https://www.linkedin.com/in/alexxrenteri/"
           target="_blank"
           rel="noopener noreferrer"
         >
-                  LINK DE MI PERFIL
+          LINKED IN DE MY PROFILE
         </a>
-        <br></br>
-         <a
-          className="App-link"
-          href="/cv.html"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-                  MI CV
-        </a>
+
+        <br />
+
+        <Link className="App-link" to="/descargas">
+          DOCUMENTACIÓN PARCIAL 1
+        </Link>
       </header>
     </div>
+  );
+}
+
+function App() {
+  return (
+    <HashRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/descargas" element={<Descargas />} />
+      </Routes>
+    </HashRouter>
   );
 }
 
