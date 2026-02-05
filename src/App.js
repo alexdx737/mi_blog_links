@@ -1,6 +1,5 @@
 import profile from './fotocv.jpg';
 import './App.css';
-
 function App() {
   return (
     <div className="App">
@@ -23,11 +22,11 @@ function App() {
         <br></br>
          <a
           className="App-link"
-          href="https://www.medikt.com.mx/practicas/documentacion.html"
+          href="/cv.html"
           target="_blank"
           rel="noopener noreferrer"
         >
-                  DOCUMENTACION PARCIAL 1
+                  MI CV
         </a>
       </header>
     </div>
