@@ -16,7 +16,7 @@ function Home() {
 
         <a
           className="App-link"
-          href="https://www.linkedin.com/in/alexxrenteri/"
+          href="https://www.linkedin.com/in/alejandra-yemanya?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -28,6 +28,17 @@ function Home() {
         <Link className="App-link" to="/descargas">
           DOCUMENTACIÓN PARCIAL 1
         </Link>
+
+        <br/>
+
+        <a
+          className="App-link"
+          href="https://www.medikt.com.mx/practicas/parcial_2.html"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          DOCUMENTACIÓN PARCIAL 2
+        </a>
       </header>
     </div>
   );
