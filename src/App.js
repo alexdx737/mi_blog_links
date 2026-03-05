@@ -2,6 +2,7 @@ import profile from './fotocv.jpg';
 import './App.css';
 import { HashRouter, Routes, Route, Link } from "react-router-dom";
 import Descargas from "./Descargas";
+import Parcial2 from "./Parcial2"; // componente para la segunda evaluación
 
 function Home() {
   return (
@@ -31,14 +32,10 @@ function Home() {
 
         <br/>
 
-        <a
-          className="App-link"
-          href="https://www.medikt.com.mx/practicas/parcial_2.html"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          DOCUMENTACIÓN PARCIAL 2
-        </a>
+        <Link className="App-link" to="/parcial2">
+          DOCUMENTACION PARCIAL 2
+        </Link>
+        
       </header>
     </div>
   );
@@ -50,6 +47,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/descargas" element={<Descargas />} />
+        <Route path="/parcial2" element={<Parcial2 />} />
       </Routes>
     </HashRouter>
   );
