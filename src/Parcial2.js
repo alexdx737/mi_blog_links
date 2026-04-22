@@ -79,7 +79,7 @@ function Parcial2() {
 
       <div className="tablero-section">
         <h3 className="tablero-title">LINK A TABLERO DE TRABAJO</h3>
-        <a href="https://alejandrayemanyasanchez.atlassian.net/jira/software/projects/SCRUM/boards/1?atlOrigin=eyJpIjoiZWE3NjFjYjc1NGRhNDJmMGI1MTVlYTU1ZGMyYjI1ZjIiLCJwIjoiaiJ9" target="_blank" rel="noopener noreferrer" className="outlined-button">
+        <a href="https://ingreyeslara.atlassian.net/jira/software/projects/CP/boards/169?sprintStarted=true&atlOrigin=eyJpIjoiOGE2YThjNzc5YTU5NDUwMGE2ZTUzY2I5MjI3YmNlYTMiLCJwIjoiaiJ9" target="_blank" rel="noopener noreferrer" className="outlined-button">
           ---- JIRA ----
         </a>
       </div>
@@ -88,7 +88,7 @@ function Parcial2() {
 
       <div className="footer-section">
         <Link to="/" className="outlined-button return-btn">
-          <a href="https://zippy-gnome-623e00.netlify.app/" target="_blank" rel="noopener noreferrer" className="outlined-button">
+          <a href="https://DevAlejandroarellano.github.io/PaginaREACT" target="_blank" rel="noopener noreferrer" className="outlined-button">
           ---- REGRESAR MENÚ PRINCIPAL ----
         </a>
 
